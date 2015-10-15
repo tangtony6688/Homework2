@@ -1,0 +1,120 @@
+body {
+	margin: 0;
+	background-image: url(background.png);
+	background-repeat: repeat;
+}
+#body {
+	font-size: 8pt;
+	font-family: verdana;
+}
+.top {
+	background-image: url(bannerbackground.png);
+	background-repeat: repeat-x;
+	height: 50px;
+	text-align: center;
+}
+h1 {
+	font-size: 24pt;
+	font: bold verdana;
+	text-align: center;
+}
+#contentarea {
+	width: 800px;
+	border: solid gray 4px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+#left {
+	width: 550px;
+	overflow: hidden;
+	float: left;
+}
+.rottenbig {
+	background-image: url(rottenbackground.png);
+	background-repeat: repeat-x;
+	height: 83px;
+}
+.rating {
+	font-size: 48pt;
+	font-weight: bold;
+	color: red;
+	display: inline;
+	vertical-align: bottom;
+}
+.totreview {
+	font-size: 8pt;
+	color: white;
+	display: inline;
+	vertical-align: 12px;
+}
+.pica {
+	width: 250px;
+}
+.columns1 {
+	width: 47%;
+	padding: 2%;
+	float: left;
+}
+.columns2 {
+	width: 47%;
+	padding: 2%;
+	padding-left: 0px;
+	float: right;
+}
+.requoteicon {
+	float: left;
+	padding: 5px;
+	padding-top: 0px;
+}
+.quoteicon {
+	float: left;
+	padding: 5px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;	
+}
+.quote {
+	font-size: 8pt;
+	font-weight: bold;
+	margin: 8px;
+	overflow: hidden;
+	line-height: 130%;
+}
+.review {
+	border: 2px solid gray;
+	background-color: #E1D697;
+}
+.name {margin-bottom: 1px;}
+.publication {
+	font-style: italic;
+	margin-top: 1px;
+}
+.b {margin-top: 3em;}
+#bottomword {
+	margin: auto;
+	padding: 5px;
+	text-align: center;
+	background-color: #A2B964;
+	clear: both;
+}
+#word {margin: auto;}
+#right {
+	float: right;
+	width: 250px;
+	background-color: #A2B964;
+	font-size: 8pt;
+	font-family: arial;
+}
+#info {margin: 10px;}
+.title {font-weight: bold;}
+dt {margin-top: 1em;}
+#tubiao {
+	float: right;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+
+}
+#tubiao a {text-decoration: none;}
+
